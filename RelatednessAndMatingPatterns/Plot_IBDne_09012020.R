@@ -1,7 +1,7 @@
 library(ggplot2)
 library(gridExtra)
 
-# Plot IBDne, for Fig 7 in the associated paper
+# Plot IBDne, for Supp Fig 7 in the associated paper
 
 # First, do Cabo Verde as a whole (all island regions)
 anc1 <- read.table("/Users/klk37/Google Drive/Project_Admixture_CapeVerde/ibdne/anc1_2cM.ibdne.ne",header=T)
