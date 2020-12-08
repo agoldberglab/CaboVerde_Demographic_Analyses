@@ -11,6 +11,7 @@ To estimate admixture proportions and call local ancestry in the Cabo Verde indi
 To produce estimates of admixture proportions, we first performed unsupervised clustering of the samples using ADMIXTURE (Alexander, Novembre, & Lange, 2009), and we estimated individual ancestries by averaging over ten independent ADMIXTURE runs using K = 2. ADMIXTURE was run separately for the autosomal and X chromosome datasets after pruning based on linkage disequilibrium (LD) using the indep-pairwise option of PLINK v1.9 with a 50-SNP sliding window incremented by 10 SNPs, and an LD threshold of r2 = 0.5 (Purcell et al., 2007). We also clustered the samples using PLINK’s Principal component analysis (--pca) function, using this pruned dataset. The following scripts perform pruning, PCA, and ADMIXTURE analyses:
  * Prune_and_PCA.sh
  * RunAdmixture-10startingseeds.sh
+ * Plot-pca-CV-04052020.R for visualization
 
 ## 3. Phasing
 To prepare for local ancestry calling, we phased all samples using SHAPEIT2 (Delaneau, Zagury, & Marchini, 2013):
