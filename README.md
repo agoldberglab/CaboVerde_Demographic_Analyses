@@ -21,8 +21,8 @@ This repository contains scripts for analyzing population history in Cabo Verde.
 - R v3.6.1 https://www.r-project.org/
 
 ## Code for analyses performed in this study is divided into three directories here:
-#### 1. [PreparingAncestryData](./PreparingAncestryData) contains scripts for obtaining ancestry reference panels, clustering, and estimating ancestry.
-Also includes [PreparingAncestryData/Summary.md](./PreparingAncestryData/Summary.md) with more detailed descriptions of the following analyses:
+#### 1. [PreparingAncestryData](./PreparingAncestryData) contains scripts for obtaining ancestry reference panels, PCA, and estimating ancestry.
+Also includes [PreparingAncestryData/Summary.md](./PreparingAncestryData/Summary.md) with more detailed descriptions of the following steps:
 * obtaining/formatting reference population data from the 1000 Genomes Project high-coverage resequencing data released through the International Genome Sample Resource (linked above)
 * pruning based on LD using the indep-pairwise option of PLINK v1.9 with a 50-SNP sliding window incremented by 10 SNPs, and an LD threshold of r2 = 0.5 (Purcell et al., 2007)
 * visualization using PLINK’s Principal component analysis (--pca) function, using the pruned dataset
