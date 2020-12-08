@@ -13,8 +13,10 @@ This repository contains scripts for analyzing population history in Cabo Verde.
 - ADMIXTURE v1.3.0 https://dalexander.github.io/admixture/download.html
 - SHAPEIT v2 https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html#home
 - RFMix v1.5.4 https://sites.google.com/site/rfmixlocalancestryinference/
+- EIGENSOFT v3 ***convertf*** https://github.com/argriffing/eigensoft/tree/master/CONVERTF
 - ALDER  v1.03 http://cb.csail.mit.edu/cb/alder/
 - MULTIWAVER v2.0 https://www.picb.ac.cn/PGG/resource.php
+- LAD-based Zaitlen et al. method https://github.com/dpark27/ancassort
 - ANCESTOR https://github.com/sriramlab/ANCESTOR/blob/master/ancestor.py
 - Ancestry specific IBD Ne http://faculty.washington.edu/sguy/asibdne/
 - RefinedIBD http://faculty.washington.edu/browning/refined-ibd.html
