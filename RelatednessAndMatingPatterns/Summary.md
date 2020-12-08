@@ -3,6 +3,10 @@ This directory contains scripts used for IBD detection, ROH calling, tests of no
 
 ## 1. Assortative mating
 We tested for assortative mating over the last generation using ANCESTOR (Zou, Halperin, Burchard, & Sankararaman, 2015; Zou, Park, et al., 2015). 
+* ancestor_step1_parseRFmix.pl
+* ancestor_step2_collapseAncestryBlocks.pl
+* ancestor_step3_runAncestor.sh
+* ancestor_step4_parseoutput_IndivChrom.pl
 
 ## 2. IBD
 Following the analysis pipeline of S. R. Browning et al. (2018), we inferred segments of IBD using the haplotype-based IBD detection method Refined IBD (B. L. Browning & Browning, 2013), and we estimated ancestry-specific population size using IBDNe (S. R. Browning & Browning, 2015). After running Refined IBD, we used its gap-filling utility to remove gaps between segments less than 0.6 cM that had at most one discordant homozygote. We then filtered out IBD segments smaller than 5 cM, as short segments below this threshold are difficult to accurately detect (Nelson et al., 2020). See associated scripts:
@@ -22,7 +26,7 @@ We called ROH using GARLIC v.1.1.6 (Szpiech, Blant, & Pemberton, 2017), which im
 * GarlicStep4_parse-garlic-by-indiv.pl
 * For visualization of the ROH results, see Plot-GarlicROH-Byclass-withresample_09022020.R
 
-# 4. Sex-biased admixture
+## 4. Sex-biased admixture
 We used the following parameters to apply a mechanistic model of sex-biased admixture using the method of Goldberg & Rosenberg 2015:
 
 | Population, sample | Males | Females | Autosomal, mean Afr ancestry | X chr, mean Afr ancestry | p (percent female) |
