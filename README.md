@@ -1,6 +1,9 @@
 # CaboVerde_Demographic_Analyses
 This repository contains scripts for analyzing population history in Cabo Verde. The following analyses were performed in the Goldberg Lab at Duke University by Katharine Korunes (contact: kkorunes@gmail.com). 
 
+## Citation
+***preprint details will go here***
+
 ## Datasets
 - 1000 Genomes resequencing data can be accessed here: https://www.internationalgenome.org/data-portal/data-collection/30x-grch38 
 - Cabo Verdean data originally described in Beleza et al. 2013 does not allow for public release of genotype data; however, inferred local ancestry information used in this study can be found at https://doi.org/10.5281/zenodo.4021277
@@ -20,7 +23,7 @@ This repository contains scripts for analyzing population history in Cabo Verde.
 - GARLIC v1.1.6 https://github.com/szpiech/garlic
 - R v3.6.1 https://www.r-project.org/
 
-## Code for analyses performed in this study is divided into three directories here:
+## The 3 directories here contain code for analyses performed in this study:
 #### 1. [PreparingAncestryData](./PreparingAncestryData) contains scripts for obtaining ancestry reference panels, PCA, estimating global ancestry, and phasing.
 Also includes [PreparingAncestryData/Summary.md](./PreparingAncestryData/Summary.md) with more detailed descriptions of the following steps:
 * obtaining/formatting reference population data from the 1000 Genomes Project high-coverage resequencing data released through the International Genome Sample Resource (linked above)
