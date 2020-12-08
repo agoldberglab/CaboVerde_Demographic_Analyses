@@ -2,9 +2,11 @@
 This directory includes scripts for our application of three distinct strategies for estimating the timing of the onset of admixture in Cabo Verde. 
 
 ## 1. ALDER (Loh et al., 2013) 
-* We first converted the genotypes to EIGENSTRAT format using convertf (Patterson, Price, & Reich, 2006; Price et al., 2006). 
-* ALDER_prep-input.sh
-* We then used ALDER to date admixture timing on each island using default parameters with mindis  =  0.005 and source populations GWD and IBS. 
+* We first prepped the plink-formatted data by updating all IDs to reflect island membership and relabeling the “phenotypes” (column 6 in .fam files were -9 (missing) but convertf ignores individuals with -9 codings. Changed the column to 1s per the Eigensoft FAQ) using the following script:
+  * ALDER_prep-input.sh
+* We converted the genotypes to EIGENSTRAT format using convertf (Patterson, Price, & Reich, 2006; Price et al., 2006):
+  * convertf -p par.PED.EIGENSTRAT
+* We then ran ALDER to date admixture timing on each island using default parameters with mindis = 0.005 and source populations specified (refpops:GWD;IBS) 
 
 ## 2. MultiWaver 2.0 (Ni et al., 2019) 
 We ran MultiWaver using the ancestry tracts inferred by RFMix, default parameters, and 100 bootstraps. 
