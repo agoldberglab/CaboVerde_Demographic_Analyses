@@ -22,4 +22,4 @@ To prepare for local ancestry calling, we phased all samples using SHAPEIT2 (Del
 * phasing_step6_phase.sh
 * phasing_step6v2_xchr_phase.sh
 * phasing_step7-takesubsets.sh
-Note that local ancestry calling details as well as the local ancestry calls from RFMix are publicly available via Zenodo at https://doi.org/10.5281/zenodo.4021277 
+* **Note that local ancestry calling details as well as the local ancestry calls from RFMix are publicly available via Zenodo at https://doi.org/10.5281/zenodo.4021277**
