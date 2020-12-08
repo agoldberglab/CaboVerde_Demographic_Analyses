@@ -18,4 +18,4 @@ We followed the pipeline of Zaitlen et al. (2017) and its accompanying scripts t
 * LAD_step2_ByIsland_09152020.pl
 * The above steps generate the input for Zaitlen et al. (2017) scripts. Using possible values of admixture generations ranging from 5-25, we determined the best fit using island-specific mean LAD decay over the 279 autosomal windows, assortative mating parameters estimated with ANCESTOR, a starting autosomal admixture proportion of 0.65, and either no migration or with migration (migration rate = 0.01).
 
-**See also Plot_admixturetiming_09212020.R for visualing the results of the above analyses**
+**See also Plot_admixturetiming_09212020.R for visualizing the results of the above analyses**
