@@ -2,7 +2,7 @@
 This repository contains scripts for analyzing population history in Cabo Verde. The following analyses were performed in the Goldberg Lab at Duke University by Katharine Korunes (contact: kkorunes@gmail.com). 
 
 ## Citation
-***preprint details will go here***
+Our associated preprint, *"Sex-biased admixture and assortative mating shape genetic variation and influence demographic inference in admixed Cabo Verdeans,"* is available here: https://www.biorxiv.org/content/10.1101/2020.12.14.422766v1
 
 ## Datasets
 - 1000 Genomes resequencing data can be accessed here: https://www.internationalgenome.org/data-portal/data-collection/30x-grch38 
